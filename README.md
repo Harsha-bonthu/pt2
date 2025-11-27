@@ -83,6 +83,12 @@ I ran the API locally in Docker and captured real responses to include here. You
 Files created for demo artifacts:
 - `artifacts/openapi_docs.html` — saved OpenAPI docs HTML (open in browser and screenshot for your portfolio).
 
+## Demo — Screen recording
+
+I recorded a short screen walkthrough of the running project (showing the Docker run, token request, and creating an employee/task). View the recording here:
+
+[Screen recording — PT2 project (Google Drive)](https://drive.google.com/file/d/1pmdU4GUxtJ2fnoMqBsnia0gVVa1Eup81/view?usp=drivesdk)
+
 
 ## API usage examples (curl)
 
