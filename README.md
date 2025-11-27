@@ -139,6 +139,3 @@ Run tests locally (inside container recommended):
 ```powershell
 docker compose exec web pytest -q
 ```
-
-I can run the test suite now and paste the output here if you'd like — tell me to `run tests` and I'll run them inside the container and report results for inclusion in the README and your recruiter notes.
-
