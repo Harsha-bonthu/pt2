@@ -90,6 +90,15 @@ I recorded a short screen walkthrough of the running project (showing the Docker
 [Screen recording — PT2 project (Google Drive)](https://drive.google.com/file/d/1pmdU4GUxtJ2fnoMqBsnia0gVVa1Eup81/view?usp=drivesdk)
 
 
+## Live demo (deployed)
+
+- **Primary URL:** `https://pt2-n3aw.onrender.com`
+- **API docs:** `https://pt2-n3aw.onrender.com/docs`
+- **Health check:** `https://pt2-n3aw.onrender.com/health`
+
+Open the API docs to try endpoints interactively or use the health check to confirm the service is running.
+
+
 ## API usage examples (curl)
 
 1) Get a demo token:
