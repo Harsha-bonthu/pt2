@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pt2-web
+    env: docker
+    plan: free
+    branch: main
+    autoDeploy: true
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: SECRET_KEY
+        value: "REPLACE_ME"
+        sync: false
