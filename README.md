@@ -148,27 +148,4 @@ Run tests locally (inside container recommended):
 ```powershell
 docker compose exec web pytest -q
 ```
-<<<<<<< HEAD
-=======
 
-I can run the test suite now and paste the output here if you'd like — tell me to `run tests` and I'll run them inside the container and report results for inclusion in the README and your recruiter notes.
-
-## Deploy to Render (quick demo)
-
-This repository can be deployed quickly to Render using the included `render.yaml` manifest. Render will build the Docker image from the repository and run the service.
-
-Steps:
-
-1. Create a free account at https://render.com and connect your GitHub account.
-2. On Render, create a new service and choose "Deploy from Git" → select this repository (`Harsha-bonthu/pt2`).
-3. Render should detect `render.yaml` and configure a web service named `pt2-web`. If not, configure a Docker web service and point it at the repository root and `Dockerfile`.
-4. Set environment variables in the Render dashboard:
-	- `SECRET_KEY` — set to a secure random string (do not commit this value).
-	- (Optional) `DATABASE_URL` — if you want a managed Postgres instance, set this here; otherwise the app will use SQLite inside the container (ephemeral on free plans).
-5. Trigger a deploy (Render will build the Docker image and start the service). The app will be available at the public URL shown in the Render dashboard.
-
-Notes:
-- For a production-like deployment use a managed Postgres instance and set `DATABASE_URL` accordingly, and run the Alembic migration (`alembic upgrade head`).
-- The `render.yaml` includes a `SECRET_KEY` placeholder. Always set secrets through the Render UI.
-
->>>>>>> fc63528 (Add Render manifest and deployment instructions)
